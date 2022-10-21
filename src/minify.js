@@ -1,3 +1,12 @@
+/**
+ * [rollup-plugin-minification]{@link https://github.com/UmamiAppearance/minification}
+ *
+ * @version 0.1.0
+ * @author UmamiAppearance [mail@umamiappearance.eu]
+ * @license MIT
+ */
+
+
 import { minify } from "terser";
 import { yourFunction } from "rollup-plugin-your-function";
 
