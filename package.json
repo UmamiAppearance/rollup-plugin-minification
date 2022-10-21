@@ -38,6 +38,7 @@
     "terser": "^5.15.1"
   },
   "devDependencies": {
+    "@rollup/pluginutils": "^5.0.1",
     "ava": "^4.3.3",
     "eslint": "^8.25.0",
     "rollup": "^3.2.3"
