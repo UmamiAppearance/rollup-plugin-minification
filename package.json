@@ -2,9 +2,23 @@
   "name": "rollup-plugin-minification",
   "version": "0.1.0",
   "description": "Replacement for rollup-plugin-terser",
-  "main": "src/minify.js",
+  "main": "./cjs/minify.cjs",
+  "module": "./src/minify.js",
+  "exports": {
+    "import": "./src/minify.js",
+    "require": "./cjs/minify.cjs"
+  },
+  "type": "module",
+  "directories": {
+    "cjs": "cjs",
+    "test": "test",
+    "src": "src"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:cjs": "rollup ./src/minify.js --file ./cjs/minify.cjs --format cjs -m",
+    "lint": "eslint ./src/*",
+    "lint:fix": "eslint ./src/* --fix",
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -24,6 +38,8 @@
     "terser": "^5.15.1"
   },
   "devDependencies": {
+    "ava": "^4.3.3",
+    "eslint": "^8.25.0",
     "rollup": "^3.2.3"
   }
 }
