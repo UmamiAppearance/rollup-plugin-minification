@@ -1,0 +1,29 @@
+{
+  "name": "rollup-plugin-minification",
+  "version": "0.1.0",
+  "description": "Replacement for rollup-plugin-terser",
+  "main": "src/minify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UmamiAppearance/rollup-plugin-minification.git"
+  },
+  "keywords": [
+    "rollup-plugin"
+  ],
+  "author": "UmamiAppearance",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UmamiAppearance/rollup-plugin-minification/issues"
+  },
+  "homepage": "https://github.com/UmamiAppearance/rollup-plugin-minification#readme",
+  "dependencies": {
+    "rollup-plugin-your-function": "^0.4.1",
+    "terser": "^5.15.1"
+  },
+  "devDependencies": {
+    "rollup": "^3.2.3"
+  }
+}
