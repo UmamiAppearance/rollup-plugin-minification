@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-minification",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Replacement for rollup-plugin-terser",
   "main": "./cjs/minify.cjs",
   "module": "./src/minify.js",
@@ -34,7 +34,6 @@
   },
   "homepage": "https://github.com/UmamiAppearance/rollup-plugin-minification#readme",
   "dependencies": {
-    "rollup-plugin-your-function": "^0.4.1",
     "terser": "^5.15.1"
   },
   "devDependencies": {
