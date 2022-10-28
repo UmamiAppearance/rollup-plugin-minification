@@ -1,23 +1,10 @@
 # rollup-plugin-minification
 
-This is an emergency replacement for [rollup-plugin-terser](https://github.com/TrySound/rollup-plugin-terser) which is currently not in active development.
+This <s>is</s> was an emergency replacement for [rollup-plugin-terser](https://github.com/TrySound/rollup-plugin-terser) which is currently not in active development.
 
-There is an official solution for the terser plugin on the way, as it is going to be part of the [rollup plugins repository](https://github.com/rollup/plugins). Until it is available you can use this plugin as a 1:1 replacement for **rollup-plugin-terser**. 
+**This repository is now archived.**
 
-## Installation
-```console
-npm i rollup-plugin-minification -D
-```
+There is an official solution available, which is part of the [rollup plugins repository](https://github.com/rollup/plugins):
 
-## Usage
-**rollup config:**
-```js
-//import { terser } from "rollup-plugin-terser";
-import { terser } from "rollup-plugin-minification";
-```
-
-## License
-
-[MIT](https://opensource.org/licenses/MIT)
-
-Copyright (c) 2022, UmamiAppearance
+- [npm - @rollup/plugin-terser](https://www.npmjs.com/package/@rollup/plugin-terser)
+- [github - @rollup/plugin-terser](https://github.com/rollup/plugins/tree/master/packages/terser#readme)
